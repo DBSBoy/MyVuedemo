@@ -7,11 +7,13 @@
 
 <script>
   import home from "./components/home";
-  import ElementTest from "./components/ElementTest";
+  import ElementTest from "./components/index";
+  // import singin from "./components/singin";
 export default {
   name: 'App',
   components: {
      // home
+    // singin
 
   }
 }
@@ -24,6 +26,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 </style>
